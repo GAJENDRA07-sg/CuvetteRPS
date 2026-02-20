@@ -4,7 +4,7 @@ document.getElementById('user-score').innerText = userScore;
 document.getElementById('comp-score').innerText = compScore;
 
 const meta = {
-    rock: { color: 'var(--rock)', icon: 'stone' },
+    rock: { color: 'var(--rock)', icon: 'rock' },
     paper: { color: 'var(--paper)', icon: 'hand' },
     scissors: { color: 'var(--scissors)', icon: 'scissors' }
 };
@@ -68,4 +68,5 @@ function goToWinPage() {
 const modal = document.getElementById('rules-modal');
 document.getElementById('rules-open').onclick = () => modal.style.display = 'block';
 document.querySelector('.modal-close').onclick = () => modal.style.display = 'none';
+
 
